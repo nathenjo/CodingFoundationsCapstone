@@ -1,0 +1,78 @@
+/* Header/Navbar */
+.header-wrapper {
+    display: grid;
+    grid-template-columns: .5fr 1fr 1fr;
+    background-color: black;
+    height: 100px;
+}
+
+.columnone {
+    background-image: url("../Codepen.io_logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert();
+    width: 200px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+
+
+.columntwo {
+    color: white;
+    margin-top: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 100px;
+}
+
+.columntwo > .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px;
+}
+
+.columntwo > .navbar a, span {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25em;
+}
+
+.columntwo > .navbar i {
+    padding: 8px;
+    font-size: 0.75em;
+    color: lightgray
+}
+
+.columnthree > .navbartwo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 6px;
+}
+
+.columnthree > .navbartwo > .navlink2 {
+    background-color: #2F2F2F;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.columnthree > .navbartwo > .navlink2 i {
+    padding: 8px;
+}
+
+.columnthree > .navbartwo > .navlink2 a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 1.25em;
+    color: white;
+    font-weight: bold;
+}
+
+.columnthree > .navbartwo > .navlink3 i {
+    padding: 8px;
+    color: darkgray;
+    font-size: 1.25em;
+}

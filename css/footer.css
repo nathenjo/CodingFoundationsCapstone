@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2f2f2f;
+}
+
+.footer > .footer-item {
+    display: flex;
+    align-items: center;
+    border: 0.5px solid darkgray;
+    padding: 2em;
+    height: 20px;
+    width: 100%;
+}
+
+.footer > .footer-item p {
+    color: white;
+    font-size: 1.5em;
+}
+
+.footer > .footer-item b {
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 1px;
+}
